@@ -1,0 +1,1 @@
+SELECT color, year FROM Cars;

@@ -1,0 +1,24 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>40</x><y>90</y><w>210</w><h>110</h></coordinates><panel_attributes>Kayttaja
+--
++ nimi: String
++ tiimi: String
++esineet: Tavara[]
+--
++tulostaTiedot()
++ palautaEsineidenSumma(): float</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>60</x><y>590</y><w>210</w><h>70</h></coordinates><panel_attributes>Tavara
+--
+- nimike: String
+- arvo: Float
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>50</x><y>190</y><w>50</w><h>170</h></coordinates><panel_attributes>lt=-
+m1=0..n
+m2=0..1
+</panel_attributes><additional_attributes>10;10;10;150</additional_attributes></element><element><id>UMLClass</id><coordinates><x>40</x><y>340</y><w>210</w><h>110</h></coordinates><panel_attributes>Kayttajat_tavarat		
+--
+nimi: String
+nimike:String
+
+-..
+nimi+nimike = uniikki tietue</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>50</x><y>440</y><w>60</w><h>170</h></coordinates><panel_attributes>lt=-
+m1=0..n
+m2=0..1
+</panel_attributes><additional_attributes>10;10;20;150</additional_attributes></element></diagram>

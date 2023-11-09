@@ -1,0 +1,1 @@
+SELECT artists.name, albums.tracks FROM artists LEFT JOIN albums ON artists.name = albums.artist ORDER BY artists.name;
